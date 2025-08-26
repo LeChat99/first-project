@@ -61,12 +61,12 @@ a {
 }
 
 .cover {
-    min-height: 757px;
+    height: 757px;
     background: url(../img/lotus-flower.png) center center/cover no-repeat;
 }
 
-.cover_blakout {
-    height: 757px;
+.blakout {
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
