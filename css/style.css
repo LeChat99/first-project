@@ -59,3 +59,74 @@ a {
         font-weight: 400;
         font-size: 18px;
 }
+
+.cover {
+    min-height: 757px;
+    background: url(../img/lotus-flower.png) center center/cover no-repeat;
+}
+
+.cover_blakout {
+    height: 757px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overplay {
+    padding-top: 145px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.h1_text {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    margin: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.align_text_left {
+    text-align: left;
+}
+
+.align_text_center {
+    text-align: center;
+
+}
+
+.align_text_right {
+    text-align: end;
+}
+
+.cover_description {
+    display: grid;
+    grid-template-columns: 1fr 256px;
+    margin-top: 106px;
+    color: white;
+}
+
+.cover_description-text {
+    margin: 11px 0;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 19px;
+}
+
+.bet-button {
+    border: 1px solid white;
+    width: 256px;
+    height: 51px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    line-height: 100%;
+}
