@@ -194,4 +194,31 @@ a {
     font-size: 20px;
 }
 
+.about {
+    margin-top: 155px;
+    margin-left: 47px;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    column-gap: 72px;
+}
 
+.about_blak_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.about_title {
+    margin-top: 98px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about_text {
+    font-weight: 400;
+    font-size: 24px;
+}
