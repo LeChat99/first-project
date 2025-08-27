@@ -11,9 +11,9 @@
     <header class="header">
         <nav>
             <ul class="header_menu">
-                <li class="header_menu_item"><a href="">главная</a></li>
-                <li class="header_menu_item"><a href="">посмотреть лоты</a></li>
-                <li class="header_menu_item"><a href="">об аукционе</a></li>
+                <li class="header_menu_item"><a href="#cover">главная</a></li>
+                <li class="header_menu_item"><a href="#lots">посмотреть лоты</a></li>
+                <li class="header_menu_item"><a href="#about">об аукционе</a></li>
             </ul>
         </nav>
             <img class="logo" src="icon/logo.svg" alt="оно тебе надо">
@@ -25,7 +25,7 @@
             </ul>
         </address>
     </header>
-    <main class="cover">
+    <main class="cover" id="cover">
         <div class="blakout">
             <div class="overplay">
                 <h1 class="h1_text align_text_left">оно</h1>
@@ -38,7 +38,7 @@
             </div>
         </div>
     </main>
-    <section class="lots">
+    <section class="lots" id="lots">
         <h2 class="lots_heading">лоты</h2>
         <ul class="lots__card-list">
             <li class="card card_type_film">
@@ -66,7 +66,7 @@
         </ul>
         <a href="#0" class="lots__look-more-link">посмотреть больше</a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about_blak_circle">
             <img src="icon/logo-white.svg" alt="" class="about_img">
         </div>
@@ -81,5 +81,32 @@
             создатели. И сейчас эти лоты стали культовыми.</p>
         </div>
     </section>
+    <footer class="footer">
+        <address class="addresses addresses_footer">
+            <ul class="addresses_link">
+                <li class="address_item"><a href="tel:+99995555555">+9 999 555 5555</a></li>
+                <li class="address_item"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+                <li class="address_item"><a href="#0"></a>наб. Принсенграхт 263-<br>265, Амстердам</li>
+            </ul>
+        </address>
+        <nav>
+            <ul class="header_menu footer_menu">
+                <li class="header_menu_item"><a href="#cover">главная</a></li>
+                <li class="header_menu_item"><a href="#lots">посмотреть лоты</a></li>
+                <li class="header_menu_item"><a href="#about">об аукционе</a></li>
+            </ul>
+        </nav>
+        <div class="footer_social-items">
+            <a href="#0" class="footer_social-list">
+                <img src="icon/youtube.svg" alt="ссылка на ютуб" class="footer_social-img">
+            </a>
+            <a href="#0" class="footer_social-list">
+                <img src="icon/vk.svg" alt="ссылка на вконтакте" class="footer_social-img">
+            </a>
+            <a href="#0" class="footer_social-list">
+                <img src="icon/pinterest.svg" alt="ссылка на пинтерес" class="footer_social-img">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
